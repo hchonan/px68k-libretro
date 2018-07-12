@@ -204,9 +204,6 @@ WinX68k_LoadROMs(void)
 			printf("Font ROM image can't be found.\n");
 			return FALSE;
 #else
-			MessageBox(hWndMain,
-				"Font ROM image can't be found.\nNew one will be generated from Windows font.",
-				"Message from Keropi.", MB_ICONWARNING | MB_OK);
 			SSTP_SendMes(SSTPMES_MAKEFONT);
 			make_cgromdat(FONT, FALSE, "MS GOTHIC", "MS MINCHO");
 			//WinX68k_MakeFont();

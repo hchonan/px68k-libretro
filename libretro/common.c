@@ -29,7 +29,6 @@ void Error(const char* s)
 
 //	SSTP_SendMes(SSTPMES_ERROR);
 
-//	MessageBox(hWndMain, s, title, MB_ICONERROR | MB_OK);
 }
 
 // log for debug

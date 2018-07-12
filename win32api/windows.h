@@ -205,7 +205,6 @@ typedef struct {
 #ifdef __cplusplus
 extern "C" {
 #endif
-int	WINAPI MessageBox(HWND, LPCSTR, LPCSTR, UINT);
 void	WINAPI PostQuitMessage(int);
 BOOL	WINAPI WritePrivateProfileString(LPCSTR, LPCSTR, LPCSTR, LPCSTR);
 
