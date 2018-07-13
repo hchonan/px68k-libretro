@@ -40,13 +40,6 @@
 #include "windows.h"
 #include "mmsystem.h"
 
-void WINAPI
-PostQuitMessage(int m)
-{
-
-	exit(m);
-}
-
 DWORD WINAPI
 FAKE_GetLastError(VOID)
 {
